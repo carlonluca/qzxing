@@ -19,7 +19,7 @@
  */
 
 #include <zxing/multi/MultipleBarcodeReader.h>
-#include <zxing/Reader.h>
+#include <zxing/qzxReader.h>
 
 namespace zxing {
 namespace multi {

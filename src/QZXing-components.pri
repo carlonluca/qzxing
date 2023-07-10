@@ -36,7 +36,6 @@ HEADERS += $$PWD/QZXing_global.h \
     $$PWD/zxing/zxing/Result.h \
     $$PWD/zxing/zxing/ResultMetadata.h \
     $$PWD/zxing/zxing/ReaderException.h \
-    $$PWD/zxing/zxing/Reader.h \
     $$PWD/zxing/zxing/NotFoundException.h \
     $$PWD/zxing/zxing/MultiFormatReader.h \
     $$PWD/zxing/zxing/LuminanceSource.h \
@@ -82,7 +81,8 @@ HEADERS += $$PWD/QZXing_global.h \
     $$PWD/zxing/bigint/BigIntegerAlgorithms.hh \
     $$PWD/zxing/bigint/BigInteger.hh \
     $$PWD/zxing/zxing/WriterException.h \
-    $$PWD/zxing/zxing/common/Types.h
+    $$PWD/zxing/zxing/common/Types.h \
+    $$PWD/zxing/zxing/qzxReader.h
 
 SOURCES += $$PWD/CameraImageWrapper.cpp \
     $$PWD/QZXing.cpp \
@@ -94,7 +94,6 @@ SOURCES += $$PWD/CameraImageWrapper.cpp \
     $$PWD/zxing/zxing/ResultPoint.cpp \
     $$PWD/zxing/zxing/Result.cpp \
     $$PWD/zxing/zxing/ResultMetadata.cpp \
-    $$PWD/zxing/zxing/Reader.cpp \
     $$PWD/zxing/zxing/MultiFormatReader.cpp \
     $$PWD/zxing/zxing/LuminanceSource.cpp \
     $$PWD/zxing/zxing/FormatException.cpp \
@@ -137,6 +136,7 @@ SOURCES += $$PWD/CameraImageWrapper.cpp \
     $$PWD/zxing/bigint/BigIntegerUtils.cc \
     $$PWD/zxing/bigint/BigIntegerAlgorithms.cc \
     $$PWD/zxing/bigint/BigInteger.cc \
+    $$PWD/zxing/zxing/qzxReader.cpp
 
 enable_decoder_1d_barcodes {
     DEFINES += ENABLE_DECODER_1D_BARCODES

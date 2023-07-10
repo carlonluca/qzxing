@@ -21,7 +21,7 @@
  * limitations under the License.
  */
 
-#include <zxing/Reader.h>
+#include <zxing/qzxReader.h>
 #include <zxing/DecodeHints.h>
 #include <zxing/datamatrix/decoder/Decoder.h>
 

@@ -21,7 +21,7 @@
  */
 
  
-#include <zxing/Reader.h>
+#include <zxing/qzxReader.h>
 #include <zxing/common/BitArray.h>
 #include <zxing/Result.h>
 #include <zxing/DecodeHints.h>

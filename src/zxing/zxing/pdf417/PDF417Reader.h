@@ -21,7 +21,7 @@
  * limitations under the License.
  */
 
-#include <zxing/Reader.h>
+#include <zxing/qzxReader.h>
 #include <zxing/pdf417/decoder/Decoder.h>
 #include <zxing/DecodeHints.h>
 

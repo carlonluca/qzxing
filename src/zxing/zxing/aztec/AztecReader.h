@@ -19,7 +19,7 @@
  * limitations under the License.
  */
 
-#include <zxing/Reader.h>
+#include <zxing/qzxReader.h>
 #include <zxing/aztec/decoder/Decoder.h>
 #include <zxing/DecodeHints.h>
 

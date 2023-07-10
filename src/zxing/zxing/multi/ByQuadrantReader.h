@@ -17,7 +17,7 @@
  * limitations under the License.
  */
 
-#include <zxing/Reader.h>
+#include <zxing/qzxReader.h>
 #include <zxing/BinaryBitmap.h>
 #include <zxing/Result.h>
 #include <zxing/DecodeHints.h>
